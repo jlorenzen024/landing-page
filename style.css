@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@100;400&display=swap');
 
 
 *{
@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .first-section{
@@ -16,6 +16,7 @@ body{
 }
 
 .header-link{
+    font-weight: thin;
     font-size: 18px;
     color: #e5e7eb;
     margin: 10px;
@@ -24,6 +25,7 @@ body{
 #header-logo {
     color: #f9faf8;
     font-size: 24px;
+    font-weight: 600;
 }
 
 .navbar {
@@ -49,17 +51,37 @@ h1 {
     color: #f9faf8
 }
 .sign-up-first-section {
-
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color:#3882f6;
+    color: #e5e7eb;
+    font-weight: bolder;
+    border-radius: 8px;
+    border-color: #3882f6;
 }
 
 .content {
     display:flex;
     flex-direction: row;
+    margin: 50px;
 }
 
-.content-right, .content-left {
+.content-right {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 365px;
+}
+
+img {
+    padding-bottom: 100px;
+    margin-right: 220px;
 }
