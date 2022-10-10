@@ -96,6 +96,7 @@ h1 {
     color: black;
     font-weight: bolder;
     font-size: 36px;
+    margin: 40px;
 }
 
 
@@ -122,5 +123,32 @@ h1 {
 }
 
 figcaption {
+    margin: 50px;
     text-align:center;
+}
+
+
+.third-section {
+    background-color:#e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+}
+
+#quote {
+    display: flex;
+    margin-left: 100px;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.third-sect-author {
+    display: flex;
+    margin-top: 200px;
+
+}
+
+#quote-author {
+    font-weight: bolder;
+    font-size: 20px;
 }
