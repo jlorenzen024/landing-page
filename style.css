@@ -81,7 +81,30 @@ h1 {
     margin-left: 365px;
 }
 
-img {
+#header-pic {
     padding-bottom: 100px;
     margin-right: 220px;
+}
+
+
+
+
+
+#second-header {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+
+
+.img-sect {
+    border-radius: 8px;
+}
+
+.center-img-sect {
+    display: flex;
+    margin-top: 30px;
 }
