@@ -102,9 +102,25 @@ h1 {
 
 .img-sect {
     border-radius: 8px;
+   
 }
 
 .center-img-sect {
     display: flex;
-    margin-top: 30px;
+    justify-content: center;
+    margin: auto;
+}
+
+.img-subtext {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.subtext-list {
+    margin: 50px;
+}
+
+figcaption {
+    text-align:center;
 }
