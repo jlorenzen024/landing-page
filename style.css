@@ -143,3 +143,54 @@ figcaption {
     font-weight: bolder;
     font-size: 20px;
 }
+
+
+.fourth-section {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: auto;
+    padding: 175px;
+
+}
+
+#call-box {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: #3882f6;
+    width: 1100px;
+    height: 150px;
+    border-radius: 8px;
+}
+
+#call-header {
+    font-weight: bolder;
+    font-size: 20px;
+    display: flex;
+    margin-right: 650px;
+    color: white;
+    margin-bottom:25px;
+}
+
+#sign-up-details {
+    font-size: 14px;
+    font-weight: 100;
+    color: white;
+    align-self: end;
+    justify-self: start;
+}
+
+#sign-up-button {
+    display: flex;
+    width: 200px;
+    height: 25px;
+    background-color:#3882f6;
+    border-radius: 8px;
+    border:thin solid;
+    border-color: white;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
