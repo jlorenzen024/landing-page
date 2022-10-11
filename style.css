@@ -109,24 +109,15 @@ h1 {
 .center-img-sect {
     display: flex;
     justify-content: center;
-    margin: auto;
-}
-
-.img-subtext {
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-}
-
-.subtext-list {
-    margin: 50px;
 }
 
 figcaption {
-    margin: 50px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-right: 50px;
+    margin-top: 10px;
     text-align:center;
 }
-
 
 .third-section {
     background-color:#e5e7eb;
